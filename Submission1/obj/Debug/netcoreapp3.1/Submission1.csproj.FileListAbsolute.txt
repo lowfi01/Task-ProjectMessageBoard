@@ -1,0 +1,16 @@
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.csprojAssemblyReference.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.AssemblyInfoInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.AssemblyInfo.cs
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.exe
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.deps.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.runtimeconfig.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.runtimeconfig.dev.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Submission1.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.csproj.CopyComplete
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Submission1\obj\Debug\netcoreapp3.1\Submission1.genruntimeconfig.cache

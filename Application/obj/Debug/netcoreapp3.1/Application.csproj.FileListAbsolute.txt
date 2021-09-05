@@ -1,0 +1,9 @@
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.pdb
