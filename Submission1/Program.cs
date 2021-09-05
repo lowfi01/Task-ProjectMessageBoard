@@ -18,7 +18,7 @@ namespace Submission1
                 input = "";
                 RenderOptions(input);
                 input = Console.ReadLine();
-                application.Events(input);
+                application.StateManagement(input);
             }
 
         }

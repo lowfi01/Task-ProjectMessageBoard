@@ -2,33 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "DataContext": "1.0.0",
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Application.dll": {}
-        }
-      },
-      "DataContext/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataContext.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataContext.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -42,16 +15,6 @@
     }
   },
   "libraries": {
-    "Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
-    },
-    "DataContext/1.0.0": {
-      "type": "project",
-      "path": "../DataContext/DataContext.csproj",
-      "msbuildProject": "../DataContext/DataContext.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -60,7 +23,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Application >= 1.0.0",
       "Domain >= 1.0.0"
     ]
   },
@@ -70,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Submission1\\Submission1.csproj",
-      "projectName": "Submission1",
-      "projectPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Submission1\\Submission1.csproj",
+      "projectUniqueName": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\DataContext\\DataContext.csproj",
+      "projectName": "DataContext",
+      "projectPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\DataContext\\DataContext.csproj",
       "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Submission1\\obj\\",
+      "outputPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\DataContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,9 +53,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Application\\Application.csproj"
-            },
             "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\james\\Documents\\Programming\\work\\Task\\Submission1\\Domain\\Domain.csproj"
             }
