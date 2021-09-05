@@ -9,6 +9,11 @@ namespace Submission1
     {
         static void Main(string[] args)
         {
+            // Concerns
+            // 1# Initially tried to build this in dotnet 6, but I seem to have lost intellisense,
+            // 2# Attempted to use dotnet 5, but my installation of dotnet 6 prevent that option,
+            // 3# After 1 hour of that struggling remade in dotnet core.
+
             var IsActive = true;
             Console.WriteLine("Hello World!");
             var application = new App();

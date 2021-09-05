@@ -8,15 +8,33 @@
     ".NETCoreApp,Version=v3.1": {
       "Submission1/1.0.0": {
         "dependencies": {
-          "Application": "1.0.0"
+          "Application": "1.0.0",
+          "Domain": "1.0.0"
         },
         "runtime": {
           "Submission1.dll": {}
         }
       },
       "Application/1.0.0": {
+        "dependencies": {
+          "DataContext": "1.0.0",
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "Application.dll": {}
+        }
+      },
+      "DataContext/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "DataContext.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
@@ -28,6 +46,16 @@
       "sha512": ""
     },
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

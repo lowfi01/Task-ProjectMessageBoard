@@ -11,7 +11,7 @@ namespace Application
         public void PrintProjectDetails(string input)
         {
             // fetch project
-            var project = DbContext.ProjectsData.FirstOrDefault(x => x.Title == input);
+            var project = DbContext.ProjectsData.FirstOrDefault(x => x.Title == input.ToLower());
 
             foreach (var data in project.Posts)
             {

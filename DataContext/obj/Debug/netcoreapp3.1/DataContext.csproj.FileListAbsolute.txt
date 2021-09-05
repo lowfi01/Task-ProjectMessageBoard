@@ -1,0 +1,16 @@
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.exe
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.deps.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.runtimeconfig.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.runtimeconfig.dev.json
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.csprojAssemblyReference.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.AssemblyInfoInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.AssemblyInfo.cs
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.csproj.CopyComplete
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\DataContext\obj\Debug\netcoreapp3.1\DataContext.genruntimeconfig.cache

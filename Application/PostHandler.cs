@@ -30,7 +30,8 @@ namespace Application
             project.Posts.Add(new Post
             {
                 UserId = user.Id,
-                Message = printedMessage
+                Message = printedMessage,
+                CreatedAt = DateTime.Now,
             });
         }
     }

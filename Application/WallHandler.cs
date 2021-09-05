@@ -14,16 +14,13 @@ namespace Application
             var user = Utility.Getuser(input);
             // project that the user follows.
 
-            var projects = DbContext.ProjectsData.Where(p => p.Followers.FirstOrDefault(f => f.Id == user.Id) != null).ToList();
-            foreach (var project in projects)
-            {
-                foreach (var post in project.Posts)
-                {
-                    var currentUser = DbContext.UserData.FirstOrDefault(x => x.Id == post.UserId);
-                    Console.WriteLine(currentUser.Name);
-                    Console.WriteLine(post.Message);
-                }
-            }
+            // Attempt at some functional programming :(
+            var messageList = DbContext.ProjectsData
+                .Where(p => p.Followers.FirstOrDefault(f => f.Id == user.Id) != null)
+                .SelectMany(p => p.Posts, (project, post) => new { project, post })
+                .OrderByDescending(projectAndPost => projectAndPost.post.CreatedAt).ToList();
+
+            messageList.ForEach(projectAndPost => Console.WriteLine($"{projectAndPost.project.Title} - User Id: {projectAndPost.post.UserId}: {projectAndPost.post.Message} ({projectAndPost.post.CreatedAt})"));
 
         }
     }

@@ -7,3 +7,9 @@ C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug
 C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Application.pdb
 C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\DataContext.exe
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\DataContext.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\james\Documents\Programming\work\Task\Submission1\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete

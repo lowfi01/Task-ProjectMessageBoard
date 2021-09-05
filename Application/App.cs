@@ -1,10 +1,10 @@
-﻿using DataContext;
+﻿using Application.Common;
+using DataContext;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using PostHandler;
 
 namespace Application
 {
@@ -21,15 +21,15 @@ namespace Application
             DbContext.ProjectsData = new List<Project>()
             {
               new Project { Id = 1, Title = "moonshot"},
-              new Project { Id = 2, Title = "apollo " }
+              new Project { Id = 2, Title = "apollo" }
             };
 
             DbContext.ProjectsData[0].Posts.Add(
-                new Post { UserId = 1, Message = "Im working on it :)" }
+                new Post { UserId = 1, Message = "Im working on it :)", CreatedAt = DateTime.Now }
                 );
 
             DbContext.ProjectsData[0].Posts.Add(
-                new Post { UserId = 2, Message = "Awesome, I'll start on the forgotten password screen " }
+                new Post { UserId = 2, Message = "Awesome, I'll start on the forgotten password screen ", CreatedAt = DateTime.Now }
                 );
 
             DbContext.ProjectsData[0].Followers.Add(
@@ -47,7 +47,11 @@ namespace Application
             }
             else if (input.Contains("follows"))
             {
-                new FollowHandler().AssignFollower(input);
+                new FollowHandler().AssignFollower(new Commands.FollowCommand 
+                { 
+                    User = Utility.Getuser(input), 
+                    StringData = input.Split(" ")
+                });
             }
             else if (input.Contains("wall"))
             {
